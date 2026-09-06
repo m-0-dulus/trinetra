@@ -1,9 +1,10 @@
 <div align="center">
 <p align="center">
-  <img src="C:\Users\shrey\OneDrive\Desktop\trinetra_logo.jpeg" alt="Trinetra Logo" width="100%">
+  <img src="assets\trinetra_logo.jpeg" alt="Trinetra Logo" width="100%">
 </p>
-# TRINETRA (त्रिनेत्र)
-### Persistent Visual Tracking & Target Re Identification System in Cluttered Environments For Fighter Jets!
+<h1><b>TRINETRA (त्रिनेत्र)</b></h1><br>
+Persistent Visual Tracking & Target Re Identification System in Cluttered Environments For Fighter Jets!
+<br><br>
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![YOLOv11](https://img.shields.io/badge/YOLOv11-Ultralytics-000000?style=for-the-badge&logo=yolo&logoColor=white)](https://docs.ultralytics.com/)
@@ -98,7 +99,7 @@ Trinetra operates as a unified visual intelligence pipeline receiving input from
 
 ---
 
-## 🚀 Quick Start
+Quick Start
 
 ### 1. Prerequisites
 * Python 3.10 or higher
