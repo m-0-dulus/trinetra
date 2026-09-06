@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <img src="/Users/ansh/Downloads/trinetra.jpg" alt="Trinetra Logo" width="100%">
+  <img src="C:\Users\shrey\OneDrive\Desktop\trinetra_logo.jpeg" alt="Trinetra Logo" width="100%">
 </p>
 # TRINETRA (त्रिनेत्र)
 ### Persistent Visual Tracking & Target Re Identification System in Cluttered Environments For Fighter Jets!
