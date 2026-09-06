@@ -120,6 +120,44 @@ cd trinetra
 # Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+### 3. Running the Server & Dashboard
 
-# Install dependencies
-pip install -r requirements.txt
+Start the main asynchronous tracking server:
+
+```bash
+python3 -u server.py
+```
+Once running, access the web interfaces:
+
+* **Dashboard:** `http://localhost:8080/dashboard`
+* **Phone / Camera Stream:** `http://localhost:8080/phone`
+
+---
+
+## Evaluation Metrics
+
+Trinetra is evaluated using industry-standard multi-object tracking metrics:
+
+* **MOTA (Multi-Object Tracking Accuracy):** Overall tracking precision across complex scenes.
+* **ID Switches (IDSW):** Frequency of identity swaps during cross-overs and re-emergence.
+* **Reacquisition Time:** Latency in milliseconds to correctly identify targets post-occlusion.
+* **Occlusion Trajectory RMSE:** Accuracy of Kalman-predicted path vs. ground-truth location.
+
+---
+
+## Future Applications
+
+While aerial defense serves as the primary scenario, Trinetra's visual persistence framework naturally extends to:
+
+* **Autonomous Drones:** Navigation and target retention in dense forest/urban environments.
+* **Search & Rescue:** Continuous tracking of survivors through smoke, debris, or foliage.
+* **Intelligent Transportation:** Persistent vehicle tracking across tunnels and overpasses.
+
+---
+
+<div align="center">
+
+Developed with ❤️ during the Hackathon.
+
+</div>
