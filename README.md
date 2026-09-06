@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <img src="assets\trinetra_logo.jpeg" alt="Trinetra Logo" width="100%">
+  <img src="https://github.com/user-attachments/assets/690d246d-a83b-4788-9996-0d14556322c4" alt="Trinetra Logo" width="100%">
 </p>
 <h1><b>TRINETRA (त्रिनेत्र)</b></h1><br>
 Persistent Visual Tracking & Target Re Identification System in Cluttered Environments For Fighter Jets!
@@ -82,11 +82,16 @@ Trinetra operates as a unified visual intelligence pipeline receiving input from
 * **Mechanics:** Players maneuver physical aircraft tokens (equipped with optional ESP32/IMU telemetry).
 * **Objective:** As aircraft pass behind obstacles, Trinetra highlights the predicted point of re-emergence and locks back onto the correct target ID without swapping identities.
 
+
 ### 2. Blender 3D Synthetic Simulation
 * **Environment Generation:** Procedural generation of mountain passes, forests, and building clusters.
 * **Synthetic Data Pipeline:** Automatically exports annotated frames (`images` & `labels`) under varying lighting, camera angles, and weather conditions to train custom YOLO detection models.
 
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce6f2537-f4b2-4261-98f9-5b6f77ee1d91" alt="Trinetra Logo" width="100%">
+  <img src="https://github.com/user-attachments/assets/aca0b394-2862-47b9-83b3-75bec4012884" alt="Trinetra Logo" width="100%">
+</p>
 
 ## Tech Stack
 
@@ -99,7 +104,7 @@ Trinetra operates as a unified visual intelligence pipeline receiving input from
 
 ---
 
-Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 * Python 3.10 or higher
